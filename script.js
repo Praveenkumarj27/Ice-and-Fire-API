@@ -108,8 +108,8 @@ document.body.append(head,div);
           document.getElementById("publisher"+i).innerHTML=`<b>Publisher:</b> ${result[i].publisher}`
           document.getElementById("releasedate"+i).innerHTML=`<b>Released:</b> ${result[i].released}` 
         }
-      } catch (error) {
-        console.log(error);
+      } catch (err) {
+        console.log(err);
       }
     }ice();
     
